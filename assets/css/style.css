@@ -20,7 +20,7 @@ body{
 
 #menu-panda li{
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 
 #menu-panda a{
@@ -36,10 +36,8 @@ section{
   margin: 150px;
 }
  /*Section pictures*/
-
-
 #pictures-panda {
-  padding: 20px;
+  padding: 10px 20px;
   margin: 20px;
   text-align: center;
 }
@@ -67,6 +65,7 @@ section{
   color: white;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /*button*/
@@ -85,12 +84,14 @@ section{
   justify-content: center;
   font-weight: bold;
 }
+
 #info-panda div{
   width: 45%;
   margin: 5px;
   text-align: justify;
   display: inline-block;
   color: white;
+  padding-bottom: 50px;
 }
 #info-panda .origen-panda{
   float: left;
