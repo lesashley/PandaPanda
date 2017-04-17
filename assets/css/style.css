@@ -1,11 +1,11 @@
 body{
-  background-color: #CE9DA5;
+  background-color: rgb(29, 26, 5);
   margin: 0;
   font-family: 'Dosis', sans-serif;
 }
 
 #menu-panda{
-  background-color: #524047;
+  background-color: rgb(202, 60, 37);
   margin:  0;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@ body{
 }
 
 #menu-panda ul{
-  margin-left: 50px;
+  margin-left: 120px;
 }
 
 #menu-panda li{
@@ -25,7 +25,7 @@ body{
 
 #menu-panda a{
   text-decoration: none;
-  color:#CED7E0;
+  color:white;
   font-weight: bold;
 }
 #menu-panda a:hover{
@@ -51,7 +51,7 @@ section{
 
 #pictures-panda img{
   width: 200px;
-  border: 6px solid #8D7792;
+  border: 6px solid gray;
   margin: 10px;
   /*background-color: */
 }
@@ -77,7 +77,8 @@ section{
 
 #button-panda a{
   width: 33%;
-  background-color: #CED7E0;
+  background-color: rgb(202, 60, 37);
+  color: white;
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -89,6 +90,7 @@ section{
   margin: 5px;
   text-align: justify;
   display: inline-block;
+  color: white;
 }
 #info-panda .origen-panda{
   float: left;
