@@ -51,6 +51,7 @@ document.getElementsByClassName("historia")[0].addEventListener("click",function
   e.preventDefault();
   mostrarOcultar(contentHistory);
 })
+
 var origen = document.getElementsByClassName("origen-panda")[0];
 document.getElementsByClassName("origen")[0].addEventListener("click",function (e) {
   e.preventDefault();
