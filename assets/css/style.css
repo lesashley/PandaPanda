@@ -1,0 +1,100 @@
+body{
+  background-color: #CE9DA5;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+#menu-panda{
+  background-color: #524047;
+  margin:  0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+#menu-panda ul{
+  margin-left: 50px;
+}
+
+#menu-panda li{
+  display: inline-block;
+  padding: 20px;
+}
+
+#menu-panda a{
+  text-decoration: none;
+  color:#CED7E0;
+  font-weight: bold;
+}
+#menu-panda a:hover{
+ color: white;
+}
+
+section{
+  margin: 150px;
+}
+ /*Section pictures*/
+
+
+#pictures-panda {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+#pictures-panda div{
+  display: inline-block;
+  position: relative;
+}
+
+#pictures-panda img{
+  width: 200px;
+  border: 6px solid #8D7792;
+  margin: 10px;
+  /*background-color: */
+}
+
+#pictures-panda img:hover{
+  opacity: 0.8;
+}
+
+#pictures-panda .close{
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*button*/
+#button-panda{
+  margin: 20px;
+  padding: 20px;
+}
+
+#button-panda a{
+  width: 33%;
+  background-color: #CED7E0;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#info-panda .origen-panda{
+  width: 45%;
+  display: inline-block;
+  float: left;
+  margin: 5px;
+}
+
+#info-panda .historia-panda{
+  width: 45%;
+  display: inline-block;
+  float: right;
+  margin: 5px;
+}
