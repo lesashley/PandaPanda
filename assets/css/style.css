@@ -84,17 +84,16 @@ section{
   justify-content: center;
   font-weight: bold;
 }
-
-#info-panda .origen-panda{
+#info-panda div{
   width: 45%;
-  display: inline-block;
-  float: left;
   margin: 5px;
+  text-align: justify;
+  display: inline-block;
+}
+#info-panda .origen-panda{
+  float: left;
 }
 
 #info-panda .historia-panda{
-  width: 45%;
-  display: inline-block;
   float: right;
-  margin: 5px;
 }
