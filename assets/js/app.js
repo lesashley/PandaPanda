@@ -1,5 +1,6 @@
 var files = [{file:"assets/images/imagen1.jpg" , alt:"pareja panda"},{file:"assets/images/imagen2.jpg" , alt:"bebe panda" }
             ,{file:"assets/images/imagen3.jpg" , alt:"familia panda"},{file:"assets/images/imagen4.jpg" , alt:"panda comiendo" }]
+
 var docFragment = document.createDocumentFragment();
 var parentPictures = document.getElementById("pictures-panda");
 
@@ -41,7 +42,6 @@ buttonMenu[2].addEventListener("click",function () {
 })
 
 var contentHistory = document.getElementById("historia-panda");
-// var n = document.getElementById("historia");
 buttonMenu[1].addEventListener("click",function (e) {
   e.preventDefault();
   document.getElementById("historia-panda").classList.toggle("ocultar");

@@ -24,7 +24,6 @@ body{
 }
 
 #menu-panda a{
-  text-decoration: none;
   color: rgb(245, 222, 153);
   font-weight: bold;
 }
@@ -52,6 +51,8 @@ section{
   width: 180px;
   border: 6px solid gray;
   margin: 10px;
+  filter: grayscale(100%);
+  -webkit-filter:grayscale(100%);
 }
 
 #pictures-panda img:hover{
@@ -67,6 +68,9 @@ section{
   font-weight: bold;
   cursor: pointer;
   overflow: hidden;
+}
+#pictures-panda .close:hover{
+  color: rgb(202, 60, 37);
 }
 
 /*button*/
