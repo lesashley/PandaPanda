@@ -66,6 +66,7 @@ section{
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
+  overflow: hidden;
 }
 
 /*button*/
@@ -75,14 +76,17 @@ section{
 }
 
 #button-panda a{
-  width: 33%;
+  width: 32%;
   background-color: rgb(202, 60, 37);
   color:  rgb(245, 222, 153);
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  justify-content: center;
   font-weight: bold;
+  border: 1px solid rgb(202, 60, 37);
+}
+#button-panda a:hover{
+  border: 1px solid white;
 }
 
 #info-panda div{
@@ -93,10 +97,14 @@ section{
   color:  rgb(245, 222, 153);
   padding-bottom: 50px;
 }
-#info-panda .origen-panda{
+
+#info-panda #origen-panda{
   float: left;
 }
 
-#info-panda .historia-panda{
+#info-panda #historia-panda{
   float: right;
+}
+.ocultar{
+  visibility: hidden;
 }
